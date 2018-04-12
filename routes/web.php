@@ -11,6 +11,7 @@
 |
 */
 
+<<<<<<< HEAD
 Route::get('/', function () 
 {
     return view('welcome');
@@ -20,3 +21,9 @@ Route::get('/subscribe', function ()
 {
     return view('subscription_form');
 });
+=======
+
+Auth::routes();
+
+Route::get('/', 'HomeController@index')->name('home');
+>>>>>>> Styling-page
