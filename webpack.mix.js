@@ -11,10 +11,10 @@ let mix = require('laravel-mix');
  |
  */
 
-<<<<<<< HEAD
+
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
-=======
+
 mix.styles([ 
     'resources/assets/css/bootstrap.css',
     'resources/assets/css/app.css',
@@ -24,4 +24,4 @@ mix.styles([
     'resources/assets/js/jquery-3.3.1.js', 
     'resources/assets/js/bootstrap.bundle.js' 
 ], 'public/js/app.js');
->>>>>>> Styling-page
+
