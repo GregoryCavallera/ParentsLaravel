@@ -18,7 +18,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
 mix.styles([ 
     'resources/assets/css/bootstrap.css',
     'resources/assets/css/app.css',
-    'resources/assets/css/application.css' 
+    'resources/assets/css/appli.css'
 ], 'public/css/app.css') 
 .scripts([ 
     'resources/assets/js/jquery-3.3.1.js', 
